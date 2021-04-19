@@ -34,7 +34,7 @@ export default {
 
     this.map = new mapboxgl.Map({
       container: this.$refs.map,
-      style: 'mapbox://styles/mapbox/streets-v11',
+      style: 'mapbox://styles/mapbox/outdoors-v11',
       ...defaultCamera
     })
 
@@ -74,8 +74,8 @@ export default {
             'line-cap': 'round'
           },
           paint: {
-            'line-color': '#e2001a',
-            'line-width': 2,
+            'line-color': '#CE0000',
+            'line-width': 6,
             'line-opacity': 0,
             'line-opacity-transition': { duration: 500 }
           }
@@ -118,14 +118,14 @@ export default {
 
         if (layer.id === `route-${code}`) {
           this.map.setPaintProperty(layer.id, 'line-opacity', 0.75)
-          this.map.setPaintProperty(layer.id, 'line-width', 6)
+          this.map.setPaintProperty(layer.id, 'line-width', 10)
 
           const camera = this.state.currentSection.camera
           const speed = this.state.isFirstSection(code) ? 0.1 : 0.5
           this.map.flyTo({ speed, ...camera })
         } else {
           this.map.setPaintProperty(layer.id, 'line-opacity', 0.4)
-          this.map.setPaintProperty(layer.id, 'line-width', 2)
+          this.map.setPaintProperty(layer.id, 'line-width', 6)
         }
       })
 
