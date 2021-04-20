@@ -8,10 +8,10 @@ import mapboxgl from 'mapbox-gl'
 import 'mapbox-gl/dist/mapbox-gl.css'
 
 const defaultCamera = {
-  center: [5.671899070096338, 52.027832324868825],
+  center: [5.742659457027912, 52.048829197883606],
   bearing: 0,
   pitch: 0,
-  zoom: 14.3
+  zoom: 12
 }
 
 export default {
@@ -74,8 +74,8 @@ export default {
             'line-cap': 'round'
           },
           paint: {
-            'line-color': '#CE0000',
-            'line-width': 6,
+            'line-color': '#e2001a',
+            'line-width': 4,
             'line-opacity': 0,
             'line-opacity-transition': { duration: 500 }
           }

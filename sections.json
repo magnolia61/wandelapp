@@ -5,20 +5,22 @@
     "videos": [
       {
         "key": "e6d26z_welkom",
-        "slug": "Start - welkom",
+        "slug": "welkom",
         "name": null,
         "icon": "play",
-        "src": "https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/BigBuckBunny.mp4"
+        "src": "https://identitycraft.s3-eu-west-1.amazonaws.com/quest/welkom.mp4"
       }
     ],
     "camera": {
-      "center": [5.742659457027912, 52.048829197883606],
+      "center": [4.353337632492, 51.836765874172],
       "bearing": 45,
       "pitch": 40,
       "zoom": 15
     },
     "radius": 50,
-    "route": [[5.737397298217, 52.045438382775]]
+    "route": [
+          [4.353337632492, 51.836765874172]
+	]
   },
   {
     "code": "ze2in5",
@@ -29,29 +31,29 @@
         "slug": "kids",
         "name": "Kids",
         "icon": "kids",
-        "src": "https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/BigBuckBunny.mp4"
+        "src": "https://identitycraft.s3-eu-west-1.amazonaws.com/quest/p1kind.mp4"
       },
       {
         "key": "ze2in5_volwassenen",
         "slug": "volwassenen",
         "name": "Volwassenen",
         "icon": "adults",
-        "src": "https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/BigBuckBunny.mp4"
+        "src": "https://identitycraft.s3-eu-west-1.amazonaws.com/quest/p1volw.mp4"
       }
     ],
     "camera": {
-      "center": [5.737397298216820, 52.045438382774591],
+      "center": [4.358304999768, 51.835950482636],
       "bearing": 9.6,
       "pitch": 39.5,
       "zoom": 15.8
     },
     "radius": 20,
     "route": [
-	[5.737397298217, 52.045438382775],
-	[5.737772975117, 52.045412985608],
-	[5.737139973789, 52.046465501189],
-	[5.740301962942, 52.046899599954],
-	[5.741710290313, 52.044950136915]
+          [4.353337632492, 51.836765874172],
+          [4.357570074498, 51.836908534162],
+          [4.357666717842, 51.836527325219],
+          [4.357945583760, 51.836185930297],
+          [4.358304999768, 51.835950482636]
       ]
   },
   {
@@ -63,30 +65,31 @@
         "slug": "kids",
         "name": "Kids",
         "icon": "kids",
-        "src": "https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/BigBuckBunny.mp4"
+        "src": "https://identitycraft.s3-eu-west-1.amazonaws.com/quest/p2.mp4"
       },
       {
         "key": "pg0jul_volwassenen",
         "slug": "volwassenen",
         "name": "Volwassenen",
         "icon": "adults",
-        "src": "https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/BigBuckBunny.mp4"
+        "src": "https://identitycraft.s3-eu-west-1.amazonaws.com/quest/p2.mp4"
       }
     ],
     "camera": {
-      "center": [5.737397298216820, 52.045438382774591],
+      "center": [4.360338198024, 51.832917407150],
       "bearing": -112.0,
       "pitch": 50.8,
       "zoom": 16.9
     },
     "radius": 20,
     "route": [
-	[5.741710290313, 52.044950136915],
-	[5.743482979015, 52.045122971758],
-	[5.746581181884, 52.045609960333],
-	[5.745945163071, 52.047295477241],
-	[5.746825011447, 52.048720736057]
-    ]
+          [4.358304999768, 51.835950482636],
+          [4.358809338882, 51.835738420484],
+          [4.359393976628, 51.835595760494],
+          [4.360000239685, 51.835575895389],
+          [4.360520588234, 51.835575895389],
+          [4.360338198024, 51.832917407150]
+	]
   },
   {
     "code": "8ap8qy",
@@ -97,33 +100,31 @@
         "slug": "kids",
         "name": "Kids",
         "icon": "kids",
-        "src": "https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/BigBuckBunny.mp4"
+        "src": "https://identitycraft.s3-eu-west-1.amazonaws.com/quest/p3.mp4"
       },
       {
         "key": "8ap8qy_volwassenen",
         "slug": "volwassenen",
         "name": "Volwassenen",
         "icon": "adults",
-        "src": "https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/BigBuckBunny.mp4"
+        "src": "https://identitycraft.s3-eu-west-1.amazonaws.com/quest/p3.mp4"
       }
     ],
     "camera": {
-      "center": [5.737397298216820, 52.045438382774591],
+      "center": [4.353812718768, 51.833023019135],
       "bearing": 170.6,
       "pitch": 31.2,
       "zoom": 15
     },
     "radius": 20,
     "route": [
-	[5.746825011447, 52.048720736057],
-	[5.748168965802, 52.048869598657],
-	[5.749284261838, 52.051379978657],
-	[5.747654065490, 52.051258021966],
-	[5.745701417327, 52.051574690267],
-	[5.744692906737, 52.051429599524],
-	[5.744671365246, 52.051891358569],
-	[5.741903409362, 52.052102498710],
-	[5.741175021976, 52.049817088991]
+          [4.360338198024, 51.832917407150],
+          [4.357511065906, 51.832806430750],
+          [4.356611939145, 51.832555308930],
+          [4.356141882015, 51.832264373079],
+          [4.355004038668, 51.832871809607],
+          [4.354837490247, 51.832751780743],
+          [4.353812718768, 51.833023019135]
     ]
   },
   {
@@ -135,28 +136,28 @@
         "slug": "kids",
         "name": "Kids",
         "icon": "kids",
-        "src": "https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/BigBuckBunny.mp4"
+        "src": "https://identitycraft.s3-eu-west-1.amazonaws.com/quest/p4.mp4"
       },
       {
         "key": "c9eb5d_volwassenen",
         "slug": "volwassenen",
         "name": "Volwassenen",
         "icon": "adults",
-        "src": "https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/BigBuckBunny.mp4"
+        "src": "https://identitycraft.s3-eu-west-1.amazonaws.com/quest/p4.mp4"
       }
     ],
     "camera": {
-      "center": [5.737397298216820, 52.045438382774591],
+      "center": [4.353501163421, 51.835116818545],
       "bearing": -32.4,
       "pitch": 33.2,
       "zoom": 15.1
     },
     "radius": 20,
     "route": [
-	[5.741175021976, 52.049817088991],
-	[5.737297218293, 52.049557417631],
-	[5.736691458151, 52.048592241481],
-	[5.736331874505, 52.047561183572]
+	[4.353812718768, 51.833023019135],
+	[4.353769635786, 51.833516294134],
+	[4.354906808589, 51.834349706769],
+        [4.353501163421, 51.835116818545]
     ]
   },
   {
@@ -168,27 +169,26 @@
         "slug": "kids",
         "name": "Kids",
         "icon": "kids",
-        "src": "https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/BigBuckBunny.mp4"
+        "src": "https://identitycraft.s3-eu-west-1.amazonaws.com/quest/finish.mp4"
       },
       {
         "key": "o29p8r_volwassenen",
         "slug": "volwassenen",
         "name": "Volwassenen",
         "icon": "adults",
-        "src": "https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/BigBuckBunny.mp4"
+        "src": "https://identitycraft.s3-eu-west-1.amazonaws.com/quest/finish.mp4"
       }
     ],
     "camera": {
-      "center": [5.737397298216820, 52.045438382774591],
+      "center": [4.353337632495, 51.836765874172],
       "bearing": -36.6,
       "pitch": 29.5,
       "zoom": 15.4
     },
     "radius": 20,
     "route": [
-	[5.736331874505, 52.047561183572],
-	[5.735677583143, 52.047302182764],
-	[5.736925229430, 52.046494167298]
+        [4.353501163421, 51.835116818545],
+        [4.353337632495, 51.836765874172]
     ]
   }
 ]
