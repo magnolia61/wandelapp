@@ -8,7 +8,7 @@ import mapboxgl from 'mapbox-gl'
 import 'mapbox-gl/dist/mapbox-gl.css'
 
 const defaultCamera = {
-  center: [5.671899070096338, 52.027832324868825],
+  center: [5.078290030360222,52.00193999],
   bearing: 0,
   pitch: 0,
   zoom: 14.3
@@ -34,7 +34,7 @@ export default {
 
     this.map = new mapboxgl.Map({
       container: this.$refs.map,
-      style: 'mapbox://styles/mapbox/outdoors-v11',
+      style: 'mapbox://styles/mapbox/streets-v11',
       ...defaultCamera
     })
 
