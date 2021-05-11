@@ -6,19 +6,17 @@
       </h1>
 
       <p class="mb-5">
-        Leuk dat je meedoet aan de wandeling!
+        Leuk dat je meedoet aan de Groeiroute wandeling van Identitycraft!
       </p>
 
       <img src="../assets/phone.svg" class="h-12 mb-2">
       <p class="mb-5">
-        Door met je telefoon door het bos te lopen, kun je op een aantal punten een filmpje bekijken!
+        Probeer steeds ongeveer een kwartier te lipen en neem dan een kwartier voor een hoofdstuk uit het boekje.
       </p>
 
       <img src="../assets/marker.svg" class="h-11 mb-2">
       <p class="mb-8">
-        Zodra je op start klikt, vragen we je toestemming om je locatie te gebruiken,
-        zodat de filmpjes automatisch verschijnen zodra je bij een filmpunt aankomt.
-        In plaats hiervan kun je ook de QR-codes scannen die bij de punten hangen.
+        Zodra je op start klikt, vragen we je toestemming om je locatie te gebruiken om de route weer te geven.
       </p>
 
       <Button v-if="welcome" class="w-full mb-5" @click="state.start">
