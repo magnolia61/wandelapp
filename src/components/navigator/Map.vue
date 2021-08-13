@@ -8,8 +8,8 @@ import mapboxgl from 'mapbox-gl'
 import 'mapbox-gl/dist/mapbox-gl.css'
 
 const defaultCamera = {
-  center: [5.779588278383017, 52.1020514331758],
-  bearing: 0,
+  center: [5.7717664539814, 52.101439302787185],
+  bearing: 90,
   pitch: 0,
   zoom: 14.3
 }
